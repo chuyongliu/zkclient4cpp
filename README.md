@@ -1,24 +1,24 @@
-#zkclient4cpp
+# zkclient4cpp
 
-**zkclient4cpp ÊÇ¶Ôzookeeper c apiµÄ¼òµ¥·â×°,Ê¹µÃÊ¹ÓÃzookeeper c¿ª·¢¹¦ÄÜ¸ü¼Ó¼ò±ã,´úÂë¸ü¼Ó¼ò½à¡£
-·â×°ÁËÖ÷ÒªµÄÍ¬²½API¼°Òì²½API,¿ÉÒÔ×ÔĞĞÉèÖÃÁ¬½ÓµÄsession watcher,½áµãÉèÖÃwatcher handler,Òì²½²Ù×÷ÉèÖÃcompletion handler¡£
-Í¬Ê±Ìá¹©ÁË¼òµ¥µÄsession watcher/watcher handler/completion handlerÊµÏÖÑùÀı¡£**
+**zkclient4cpp æ˜¯å¯¹zookeeper c apiçš„ç®€å•å°è£…,ä½¿å¾—ä½¿ç”¨zookeeper cå¼€å‘åŠŸèƒ½æ›´åŠ ç®€ä¾¿,ä»£ç æ›´åŠ ç®€æ´ã€‚
+å°è£…äº†ä¸»è¦çš„åŒæ­¥APIåŠå¼‚æ­¥API,å¯ä»¥è‡ªè¡Œè®¾ç½®è¿æ¥çš„session watcher,ç»“ç‚¹è®¾ç½®watcher handler,å¼‚æ­¥æ“ä½œè®¾ç½®completion handlerã€‚
+åŒæ—¶æä¾›äº†ç®€å•çš„session watcher/watcher handler/completion handlerå®ç°æ ·ä¾‹ã€‚**
 
-##°²×°Ê¹ÓÃ
+## å®‰è£…ä½¿ç”¨
 
-###**ÏÂÔØ**
+### ä¸‹è½½
 
 git clone https://github.com/chuyongliu/zkclient4cpp.git
 
-###**ÒÀÀµ** 
+### ä¾èµ–
 
-[zookeeper](https://github.com/apache/zookeeper) ±àÒëÏàÓ¦µÄCÔ´Âë
+[zookeeper](https://github.com/apache/zookeeper) ç¼–è¯‘ç›¸åº”çš„Cæºç 
 
-[spdlog](https://github.com/gabime/spdlog)  ÈÕÖ¾¿âÖ§³Ö
+[spdlog](https://github.com/gabime/spdlog)  æ—¥å¿—åº“æ”¯æŒ
 
-###**±àÒë**
+### ç¼–è¯‘
 
-ĞèÒªÖ§³ÖC++11µÄ±àÒëÆ÷  gcc 4.8ÒÔÉÏ  cmake 2.8.4ÒÔÉÏ
+éœ€è¦æ”¯æŒC++11çš„ç¼–è¯‘å™¨  gcc 4.8ä»¥ä¸Š  cmake 2.8.4ä»¥ä¸Š
 
 mkdir build 
 
@@ -28,4 +28,3 @@ cmake ..
 
 make
 
-##
